@@ -4,7 +4,6 @@ var browserify = require('browserify');
 var connect = require('gulp-connect');
 var source = require('vinyl-source-stream');
 var sass = require('gulp-sass');
-var gulpCopy = require('gulp-copy');
 
 gulp.task('default',['js', 'sass', 'copy', 'watch']);
 
