@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MediaPlayer</title>
+</head>
+<body>
+<h1>MediaPlayer</h1> 
+
+<video width="800" height="380" controls autoplay></video>
+
+<script src="js/index.js"></script>
+<script>
+  var video = document.querySelector('video');
+  var player = MediaPlayer(video);
+  player.setSource('//r.dcs.redcdn.pl/http/o2/ATM-Lab/0zapjar/video/sintel/sintel-1280-stereo.mp4');
+</script>
+</body>
+</html>
